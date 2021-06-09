@@ -1,0 +1,15 @@
+program ProvaDelphiApp;
+
+uses
+  Vcl.Forms,
+  UnPrincipal in 'UnPrincipal.pas' {FrmPrincipal},
+  ufTarefa1 in 'ufTarefa1.pas' {frmTarefa1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.Run;
+end.

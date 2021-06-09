@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/06 21:09:19.000.134,=rtl.dcp</Transaction>
+    <Transaction>2021/06/06 21:17:55.000.140,C:\Users\fabia\OneDrive\Documentos\Embarcadero\Studio\Projects\spComponentes.dproj=C:\Users\fabia\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2021/06/06 21:19:35.000.980,D:\Projetos\Softplan\Package\ProvaDelphi.dproj=C:\Users\fabia\OneDrive\Documentos\Embarcadero\Studio\Projects\spComponentes.dproj</Transaction>
+    <Transaction>2021/06/06 21:25:59.000.641,=D:\Projetos\Softplan\Package\Components\TspQuery.pas</Transaction>
+    <Transaction>2021/06/06 21:35:57.000.266,=xmlrtl.dcp</Transaction>
+    <Transaction>2021/06/06 21:35:57.000.256,=vcl.dcp</Transaction>
+    <Transaction>2021/06/06 21:35:57.000.259,=vclactnband.dcp</Transaction>
+    <Transaction>2021/06/06 21:35:57.000.253,=designide.dcp</Transaction>
+    <Transaction>2021/06/06 21:35:57.000.263,=vclx.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

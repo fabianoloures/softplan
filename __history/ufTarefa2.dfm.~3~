@@ -1,0 +1,6 @@
+inherited fTarefa2: TfTarefa2
+  Caption = 'fTarefa2'
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+end

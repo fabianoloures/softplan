@@ -1,0 +1,47 @@
+unit UnPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  TFrmPrincipal = class(TForm)
+    MainMenu1: TMainMenu;
+    arefa11: TMenuItem;
+    arefa21: TMenuItem;
+    arefa31: TMenuItem;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure arefa11Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses ufTarefa1;
+
+procedure TFrmPrincipal.arefa11Click(Sender: TObject);
+var
+  FrmTarefa1 : TForm;
+begin
+  FrmTarefa1 := TFrmTarefa1.Create( Self );
+  FrmTarefa1.Parent := Self;
+  FrmTarefa1.Visible := True;
+end;
+
+
+procedure TFrmPrincipal.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Application.Terminate;
+end;
+
+end.
